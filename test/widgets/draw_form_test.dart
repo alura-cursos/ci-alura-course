@@ -42,7 +42,7 @@ void main() {
       await tester.tap(find.byType(DropdownInputWidget));
       await tester.pumpAndSettle();
 
-      await tester.tap(find.text('Alice5555fd'));
+      await tester.tap(find.text('Alice5555'));
 
       await tester.pumpAndSettle();
 
