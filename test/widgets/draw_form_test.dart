@@ -41,7 +41,9 @@ void main() {
       // Enter a selected option in the Dropdown
       await tester.tap(find.byType(DropdownInputWidget));
       await tester.pumpAndSettle();
-      await tester.tap(find.text('Alice223344'));
+
+      await tester.tap(find.text('Alice5555fd'));
+
       await tester.pumpAndSettle();
 
       // Verify if the selected option is displayed
